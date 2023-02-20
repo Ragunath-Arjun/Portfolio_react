@@ -3,25 +3,37 @@ import React from "react";
 function Topbar() {
   return (
     <>
-      <div class="container-fluid header">
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-4 col-xl-3 col-12 header1">
-            <span>
-              <h2 class="logo">
-                Ragunath<span class="m"> M</span>
-              </h2>
-            </span>
-          </div>
-          <div class="col-lg-8 col-md-8 col-sm-8 col-xl-9 col-12 header2 mt-3 mb-2">
-            <a href="#home">HOME</a>
-            <a href="#about-me">ABOUT</a>
-            <a href="#skills">SKILLS</a>
-            <a href="#qualification">QUALIFICATION</a>
-            <a href="#project">PORTFOLIO</a>
-            <a href="#contact">CONTACT</a>
-          </div>
-        </div>
-      </div>
+      <nav class="navbar navbar-expand-lg navbar-light nav-container container-fluid">
+            <a class="navbar-brand bold text-white logo ml-5" href="#">Ragunath <span class="m">M</span></a>
+
+            <button class="navbar-toggler hi" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span><i class="fa fa-bars fa-1x" aria-hidden="true" style={{color:"#00bfff"}}></i>
+              </span>
+            </button>
+          
+            <div class="collapse navbar-collapse header" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active " data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="#home" class="nav-link text-white ml-5">HOME</a>
+                    </li> 
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="#about-me" class="nav-link text-white">ABOUT</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="#skills" class="nav-link text-white">SKILLS</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="#qualification" class="nav-link text-white">QUALIFICATION</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="#project" class="nav-link text-white">PORTFOLIO</a>
+                    </li>
+                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                        <a href="#contact" class="nav-link text-white">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </>
   );
 }

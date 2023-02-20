@@ -14,15 +14,14 @@ code {
 
 
 
-
 *, ::after, ::before {
   box-sizing: border-box;
+  text-decoration: none;
 }
-
-.header{
+.nav-container{
   background-color: #1c2022;
   font-family:'Josefin Sans';
-  position:sticky;
+  position:sticky!important;
   top:0;
   margin:0;
   padding: 0;
@@ -30,45 +29,39 @@ code {
   box-shadow: 0 0 1rem #1cb698;
 }
 .logo{
-  font-size: 28px;
+  font-size: 28px !important;
   color:white;
+  text-align: center;
+  font-family:'Josefin Sans';
+
 }
 .m{
   color:red;
   font-family:'Josefin Sans';
 }
-.header1{
-  text-align: center;
-  margin-top:10px;
-  
-}
-.header2{
+.header{
+  font-family:'Josefin Sans';
   display: flex;
-  justify-content:space-evenly;
-  margin-top:10px;
-  flex-wrap: wrap;
-}
-
-.header2 a{
-  letter-spacing:1.5px;
-  font-size: 16px;
+  justify-content:center;
   font-weight: bold;
-  color: white;
 }
-.header2 a:hover{
-  color:#00bfff;
-  cursor: pointer;
-  text-decoration: none;
-  transform:scale(1.2,1.1);
+.nav-item{
+  margin:0 1.3rem !important;
+}
+.nav-link{
+  letter-spacing: 0.1rem;
+}
+.nav-link:hover{
+  color:#00bfff !important;
+  transform:scale(1.1,1.1);
 }
 .homepage-container{
   margin:0;
   padding:0;
   background-color:#1c2022; 
   font-family:'Josefin Sans';
-  height:587px;
+  height:560px;
 }
-
 .mainpage{
   display:flex;
   justify-content: center;
@@ -97,13 +90,12 @@ code {
   padding: 0.75rem;
   color: white;
 }
-
 .mern{
   font-size:1.6rem;
   color:white;
 }
 .item{
-z-index: 100;
+z-index: 1;
 }
 .icons{
   display:flex;
@@ -317,16 +309,14 @@ text-align: center;
   background-color:#1c2022;
   margin:0;
   padding:0;
+  height:7rem;
+  display: flex;
+  justify-content:center !important;
+  align-items:center !important;
 }
-.Footer div h3{
+.Footer-text{
   color:white;
-}
-.Footer{
-  height:50px;
-  text-align: center;
-}
-.Footer div h3{
-  font-size: 19px;
+  font-size: 1.2rem;
 }
 .up{
   text-align: center ;

@@ -169,8 +169,8 @@ function Contact() {
             </div> */}
         {/* </div> */}
 
-        <div class="row contact-div">
-          <div class="icons">
+        <div class="row contact-div ">
+          <div class="icons ">
             <a href="https://github.com/Ragunath-Arjun/" target="_blank" rel='noreferrer'>
               <i class="fa fa-github fa-2x" aria-hidden="true"></i>
             </a>
