@@ -11,8 +11,9 @@ function Homepage() {
                 <div class="row item" style={{transform: "none"}}>
                   <img
                     class="front-img"
-                    src="C:\Users\Ragunath\Documents\Course\React\portfolio_react\image\3.JPG"
-                  />
+                    src={require("./image/3.jpg")}
+                    alt="Profile"
+                    />
                   <br />
                 </div>
               </div>
@@ -24,24 +25,24 @@ function Homepage() {
               </div>
 
               <div class="icons col-12 text-center" style={{transform: "none"}}>
-                <a href="https://github.com/Ragunath-Arjun/" target="_blank">
+                <a href="https://github.com/Ragunath-Arjun/" target="_blank" rel='noreferrer'>
                   <i class="fa fa-github fa-2x" aria-hidden="true"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/ragunath-m-957ba2118/"
-                  target="_blank"
+                  target="_blank" rel='noreferrer'
                 >
                   <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
                 </a>
                 <a
                   href="https://www.instagram.com/ragunath_arjun/"
-                  target="_blank"
+                  target="_blank" rel='noreferrer'
                 >
                   <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
                 </a>
                 <a
                   href="https://www.facebook.com/ragunath.ragu.16/"
-                  target="_blank"
+                  target="_blank" rel='noreferrer'
                 >
                   <i
                     class="fa fa-facebook-official fa-2x"
@@ -50,7 +51,7 @@ function Homepage() {
                 </a>
                 <a
                   href="https://www.linkedin.com/in/ragunath-m-957ba2118/"
-                  target="_blank"
+                  target="_blank" rel='noreferrer'
                 >
                   <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
                 </a>

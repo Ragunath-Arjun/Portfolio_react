@@ -12,8 +12,8 @@ function About() {
             <div class="about-first">
               <img
                 class="about-img"
-                src="../image/02497.JPG"
-                alt="My photo"
+                src={require("./image/02497.JPG")}
+                alt="Ragunath "
               />
             </div>
           </div>

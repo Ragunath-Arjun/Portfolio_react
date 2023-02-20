@@ -1,9 +1,9 @@
 import React from "react";
 
 function Contact() {
-  let sendMessage = () => {
-    alert("Thank you for providing your response!");
-  };
+  // let sendMessage = () => {
+  //   alert("Thank you for providing your response!");
+  // };
   return (
     <>
       <div class="contact-container container-fluid" id="contact">
@@ -171,27 +171,27 @@ function Contact() {
 
         <div class="row contact-div">
           <div class="icons">
-            <a href="https://github.com/Ragunath-Arjun/" target="_blank">
+            <a href="https://github.com/Ragunath-Arjun/" target="_blank" rel='noreferrer'>
               <i class="fa fa-github fa-2x" aria-hidden="true"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/ragunath-m-957ba2118/"
-              target="_blank"
+              target="_blank" rel='noreferrer'
             >
               <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
             </a>
-            <a href="https://www.instagram.com/ragunath_arjun/" target="_blank">
+            <a href="https://www.instagram.com/ragunath_arjun/" target="_blank" rel='noreferrer'>
               <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
             </a>
             <a
               href="https://www.facebook.com/ragunath.ragu.16/"
-              target="_blank"
+              target="_blank" rel='noreferrer'
             >
               <i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/ragunath-m-957ba2118/"
-              target="_blank"
+              target="_blank" rel='noreferrer'
             >
               <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
             </a>
