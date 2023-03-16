@@ -17,8 +17,8 @@ function Portfolio() {
 
                             <div class="col-lg-4 col-12 col-md-6 col-xl-3 pc2">
                                 <div class="pricing-container">
-                                    <a href="https://deluxe-ganache-777657.netlify.app/" target="_blank" rel='noreferrer'>
-                                        <img class="pricing-grid" src={require("./image/movie_app.PNG")} alt="Movie"/>
+                                    <a href="https://kitchen-recipe-management.netlify.app/" target="_blank" rel='noreferrer'>
+                                        <img class="pricing-grid" src={require("./image/Kitchen_recipe_management.PNG")} alt="Kitchen Recipe Management"/>
                                     </a>
                                 </div>
                             </div>
@@ -33,8 +33,8 @@ function Portfolio() {
 
                             <div class="col-12 col-md-6 col-lg-4 col-xl-3 pc3">
                                 <div class="pricing-container">
-                                    <a href="https://precious-pasca-8959f4.netlify.app/" target="_blank" rel='noreferrer'>
-                                        <img class="pricing-grid" src={require("./image/social_media.PNG")} alt="Social Media"/>
+                                    <a href="https://fastidious-licorice-97ecb1.netlify.app/" target="_blank" rel='noreferrer'>
+                                        <img class="pricing-grid" src={require("./image/Cart.PNG")} alt="Add to Cart"/>
                                     </a>
                                 </div>
                             </div>
