@@ -32,7 +32,7 @@ function Qualification() {
                             </div>
                         </div><br/><br/>
                         <div class="btn-down">
-                            <a href={require("./image/Ragunath_Resume_2022.pdf")} download target="_blank" rel='noreferrer'>
+                            <a href={require("./image/Ragunath_resume_2023.pdf")} download target="_blank" rel='noreferrer'>
                                 <button class="btn-res">Resume<span><i class="fa fa-download" aria-hidden="true"></i>
                                 </span></button>
                             </a>
