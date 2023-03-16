@@ -21,7 +21,7 @@ code {
 .nav-container{
   background-color: #1c2022;
   font-family:'Josefin Sans';
-  position:sticky!important;
+  position:fixed!important;
   top:0;
   margin:0;
   padding: 0;
@@ -60,7 +60,7 @@ code {
   padding:0;
   background-color:#1c2022; 
   font-family:'Josefin Sans';
-  height:560px;
+  height:640px;
 }
 .mainpage{
   display:flex;
@@ -102,8 +102,13 @@ z-index: 1;
   justify-content:space-evenly;
   flex-wrap: nowrap;
 }
+.icons a{
+  border:1px solid white;
+  border-radius: 30%;
+}
 .icons a:hover{
   transform: translate(0,-1px);
+  background-color:black;
 }
 .content-container{
   flex-direction: column;
@@ -124,9 +129,7 @@ i{
   background-color:#1e2326;
   margin:0;
   padding:0;
-  margin-top: -10px;
   z-index: 1;
-
 }
 
 .about-head h3{
@@ -218,13 +221,11 @@ h4{
   text-align: center;
   display: flex;
   justify-content: center;
-  /* border:0.1px solid rgb(66, 215, 235); */
 }
 .bca h5{
   color: white;
 }
 .q1,.q2,.q3{
-  /* border: 1px solid black; */
   width:340px;
   letter-spacing:1px;
 
@@ -240,7 +241,7 @@ h4{
   font-family:'Josefin Sans';
   width:180px;
   height:50px;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
   background-color: rgb(66, 215, 235);
   font-weight: bold;
   border-radius: 10%;
@@ -248,7 +249,6 @@ h4{
 }
 .btn-res:hover{
   transform: scale(1.1,1.1);
-  color:#ea1538;
 }
 .btn-res span i {
   color:black;
@@ -259,6 +259,7 @@ h4{
       background-color:#1c2022; 
       margin:0;
       padding:0;
+      top:0;
 }
 .project-head{
   color: #00bfff;
@@ -300,11 +301,39 @@ h4{
 .contact-head{
 color: #00bfff;
 text-align: center;
+} 
+.input-text-container input{
+background-color: #1c2022;
 }
-.contact-div{
-  display: flex;
-  justify-content: center;
+.input-text-container textarea{
+  background-color: #1c2022;
+  }
+.input-text-container input:hover{
+border: 3px solid #09eec0;
 }
+.input-text-container textarea:hover{
+  border: 3px solid #09eec0;
+}
+  
+
+.icons-below a{
+  border:1px solid white;
+  margin-left:20px;
+  border-radius: 30%;
+}
+
+.icons-below a:hover{
+  background-color: black;
+  transform: scale(1.1,1.1);
+}
+.icons-below{
+  display:flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/*Footer*/
+
 .Footer{
   background-color:#1c2022;
   margin:0;
@@ -322,12 +351,14 @@ text-align: center;
   text-align: center ;
 }
 .up1{
-  height:65px;
-  width:65px;
+  height:55px;
+  width:55px;
   Padding:5px;
   letter-spacing:1px;
   border-radius: 50%;
   background-color: #00bfff;
+  position:relative;
+  margin-bottom: -30px;
   color:white;
 }
 .copyright-name{
