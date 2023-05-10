@@ -10,7 +10,7 @@ function Portfolio() {
                             <div class="col-lg-4 col-12 col-md-6 col-xl-3 pc1">
                                 <div class="pricing-container">
                                     <a href="https://ragu-react-tic-tac-toe.netlify.app/" target="_blank" rel='noreferrer'>
-                                        <img class="pricing-grid" src={require("./image/tic_tac_toe.PNG")} alt="Tic-Tac-Toe"/>
+                                        <img class="projects" src={require("./image/tic_tac_toe.PNG")} alt="Tic-Tac-Toe"/>
                                     </a>
                                 </div>
                             </div>
@@ -18,7 +18,7 @@ function Portfolio() {
                             <div class="col-lg-4 col-12 col-md-6 col-xl-3 pc2">
                                 <div class="pricing-container">
                                     <a href="https://kitchen-recipe-management.netlify.app/" target="_blank" rel='noreferrer'>
-                                        <img class="pricing-grid" src={require("./image/Kitchen_recipe_management.PNG")} alt="Kitchen Recipe Management"/>
+                                        <img class="projects" src={require("./image/Kitchen_recipe_management.PNG")} alt="Kitchen Recipe Management"/>
                                     </a>
                                 </div>
                             </div>
@@ -26,7 +26,7 @@ function Portfolio() {
                             <div class="col-12 col-md-6 col-lg-4 col-xl-3 pc3">
                                 <div class="pricing-container">
                                     <a href="https://lucky-praline-522615.netlify.app/" target="_blank" rel='noreferrer'>
-                                        <img class="pricing-grid" src={require("./image/anime_api.PNG")} alt="Anime"/>
+                                        <img class="projects" src={require("./image/anime_api.PNG")} alt="Anime"/>
                                     </a>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@ function Portfolio() {
                             <div class="col-12 col-md-6 col-lg-4 col-xl-3 pc3">
                                 <div class="pricing-container">
                                     <a href="https://fastidious-licorice-97ecb1.netlify.app/" target="_blank" rel='noreferrer'>
-                                        <img class="pricing-grid" src={require("./image/Cart.PNG")} alt="Add to Cart"/>
+                                        <img class="projects" src={require("./image/Cart.PNG")} alt="Add to Cart"/>
                                     </a>
                                 </div>
                             </div>

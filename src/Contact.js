@@ -1,9 +1,35 @@
+import { useFormik } from "formik";
 import React from "react";
 
 function Contact() {
-  let sendMessage = () => {
-    alert("Thank you for providing your response!");
-  };
+  const myFormik = useFormik({
+    initialValues: {
+      name: "",
+      email: "",
+      subject: "",
+      message: "",
+    },
+    validate: (values) => {
+      let errors = {};
+      if (!values.name) {
+        errors.name = "Please enter your name";
+      }
+      if (!values.email) {
+        errors.email = "Please enter your email";
+      }
+      if (!values.subject) {
+        errors.email = "Please enter your subject";
+      }
+      if (!values.message) {
+        errors.email = "Please enter your message";
+      }
+      return errors;
+    },
+    onSubmit: (values) => {
+      console.log(values);
+    },
+  });
+
   return (
     <>
       <div class="contact-container container-fluid" id="contact">
@@ -15,16 +41,17 @@ function Contact() {
         <hr />
         <div class="row pt-3 contact-me-container">
           <div class="col-lg-6 contact-input-container ml-5">
-            <form class="contact-input-form">
+            <form class="contact-input-form" onSubmit={myFormik.handleSubmit}>
               <div class="input-text-container">
                 <input
                   type="text"
                   class="name-input col-12 form-control"
                   name="name"
                   placeholder="Name"
-                  value=""
-                  onChange="handlechange"
+                  value={myFormik.values.name}
+                  onChange={myFormik.handleChange}
                 />
+                <span>{myFormik.errors.name}</span>
               </div>
               <div class="input-text-container">
                 <input
@@ -32,9 +59,9 @@ function Contact() {
                   class="email-input col-12 mt-3 form-control"
                   name="email"
                   placeholder="Email"
-                  value=""
+                  value={myFormik.values.email}
                   fdprocessedid="9paex"
-                  onChange={""}
+                  onChange={myFormik.handleChange}
                 />
               </div>
               <div class="input-text-container">
@@ -43,9 +70,9 @@ function Contact() {
                   class="subject-input col-12 mt-3 form-control"
                   name="subject"
                   placeholder="Subject"
-                  value=""
+                  value={myFormik.values.subject}
                   fdprocessedid="9pcen"
-                  onChange={""}
+                  onChange={myFormik.handleChange}
                 />
               </div>
               <div class="input-text-container">
@@ -53,22 +80,12 @@ function Contact() {
                   name="message"
                   class="col-12 message-input mt-3 form-control"
                   placeholder="Message"
-                  onChange={(e) => {
-                    console.log(e.target.value);
-                  }}
+                  value={myFormik.values.message}
+                  onChange={myFormik.handleChange}
                 ></textarea>
               </div>
               <div class="input-text-container">
-                <button
-                  type="submit"
-                  class="btn-primary mt-3 form-control"
-                  value="Send Message"
-                  onClick={() => {
-                    sendMessage();
-                  }}
-                >
-                  Send Message
-                </button>
+                <input type="submit" class="btn-primary mt-3 form-control" value="Send Message">Send Message</input>
               </div>
             </form>
           </div>
