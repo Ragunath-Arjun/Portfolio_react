@@ -9,8 +9,8 @@ function Portfolio() {
                         <div class="row pc1">
                             <div class="col-lg-4 col-12 col-md-6 col-xl-3 pc1">
                                 <div class="pricing-container">
-                                    <a href="https://heartfelt-sundae-b6f7b4.netlify.app" target="_blank" rel='noreferrer'>
-                                        <img class="pricing-grid" src={require("./image/pricing_grid.PNG")} alt="Pricing grid"/>
+                                    <a href="https://ragu-react-tic-tac-toe.netlify.app/" target="_blank" rel='noreferrer'>
+                                        <img class="pricing-grid" src={require("./image/tic_tac_toe.PNG")} alt="Tic-Tac-Toe"/>
                                     </a>
                                 </div>
                             </div>
