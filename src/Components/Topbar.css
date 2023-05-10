@@ -1,0 +1,38 @@
+.nav-container{
+    background-color: #1c2022;
+    font-family:'Josefin Sans';
+    position:fixed!important;
+    top:0;
+    margin:0;
+    padding: 0;
+    z-index: 2;
+    box-shadow: 0 0 1rem #1cb698;
+  }
+  
+  .logo{
+    font-size: 28px !important;
+    color:white;
+    text-align: center;
+    font-family:'Josefin Sans';
+  
+  }
+  .m{
+    color:red;
+    font-family:'Josefin Sans';
+  }
+  .header{
+    font-family:'Josefin Sans';
+    display: flex;
+    justify-content:center;
+    font-weight: bold;
+  }
+  .nav-item{
+    margin:0 1.3rem !important;
+  }
+  .nav-link{
+    letter-spacing: 0.1rem;
+  }
+  .nav-link:hover{
+    color:#00bfff !important;
+    transform:scale(1.1,1.1);
+  }

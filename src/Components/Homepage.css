@@ -1,0 +1,68 @@
+
+  .homepage-container{
+    margin:0;
+    padding:0;
+    background-color:#1c2022; 
+    font-family:'Josefin Sans';
+    height:640px;
+  }
+  .mainpage{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+  }
+  .front-img{
+    height:200px;
+    width:200px;
+    border:10px solid rgb(63, 200, 200);
+    border-bottom-color: #1c2022;
+    border-radius:50%;
+  }
+  .front-img:hover{
+    transform:scale(1.1,1.1);
+  }
+  .img-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .name {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 0.75rem;
+    color: white;
+  }
+  .mern{
+    font-size:1.6rem;
+    color:white;
+  }
+  .item{
+  z-index: 1;
+  }
+  .icons{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: nowrap;
+  }
+  .icons a{
+    border:1px solid white;
+    border-radius: 30%;
+  }
+  .icons a:hover{
+    transform: translate(0,-1px);
+    background-color:black;
+  }
+  .content-container{
+    flex-direction: column;
+  }
+  .homepage-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  i{
+    color:rgb(66, 215, 235);
+    padding:5px;
+  }

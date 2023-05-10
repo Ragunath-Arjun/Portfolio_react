@@ -1,4 +1,6 @@
 import React from "react";
+import "./About.css";
+
 function About() {
   return (
     <>
@@ -12,8 +14,8 @@ function About() {
             <div class="about-first">
               <img
                 class="about-img"
-                src={require("./image/02497.JPG")}
-                alt="Ragunath "
+                src={require("../image/02497.JPG")}
+                alt="Ragunath"
               />
             </div>
           </div>
@@ -41,14 +43,6 @@ function About() {
               <br />
               <i class="fa fa-language fa-2x" aria-hidden="true"></i>
               <span class="font"> Languages: Tamil,Telugu,English</span> <br />
-              {/* <i class="fa fa-map-pin fa-2x" aria-hidden="true"></i>
-              <span class="font">
-                Address: Plot 155/156, Venkatajalapathy
-                Nagar,Gudiyattam,Vellore-632602
-              </span>
-              <br />
-              <i class="fa fa-building fa-2x" aria-hidden="true"></i>{" "}
-              <span class="font"> PIN: 632602</span> */}
               <br />
               <br />
               <br />

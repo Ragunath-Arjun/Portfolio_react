@@ -1,0 +1,36 @@
+/*Footer*/
+
+.Footer{
+  background-color:#1c2022;
+  margin:0;
+  padding:0;
+  height:7rem;
+  display: flex;
+  justify-content:center !important;
+  align-items:center !important;
+}
+
+.Footer-text{
+  color:white;
+  font-size: 1.2rem;
+}
+
+.copyright-name{
+  color: #00bfff;
+}
+
+.up{
+  text-align: center ;
+}
+
+.up1{
+  height:55px;
+  width:55px;
+  Padding:5px;
+  letter-spacing:1px;
+  border-radius: 50%;
+  background-color: #00bfff;
+  position:relative;
+  margin-bottom: -30px;
+  color:white;
+}

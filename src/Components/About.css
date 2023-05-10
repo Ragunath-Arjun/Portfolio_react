@@ -1,0 +1,43 @@
+/*About Container*/
+
+.about-container{
+    background-color:#1e2326;
+    margin:0;
+    padding:0;
+    z-index: 1;
+  }
+  
+  .about-head h3{
+    font-size:50px;
+    color: rgb(66, 215, 235);
+    text-align: center;
+    font-weight: bolder;    
+    padding:20px;
+  }
+  .about-img{
+    height:280px;
+    width:280px;
+    border-radius: 10%;
+    border:10px solid #1c2022;
+    box-shadow: 0 0 1rem #1cb698;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-first{
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .namecolor{
+    color: rgb(66, 215, 235);
+    font-weight: bold;
+  }
+  .font{
+    font-size:20px;
+    color:white;
+  }
+  p{
+    font-size: 20px;
+    color:white;
+  }

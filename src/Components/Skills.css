@@ -1,0 +1,32 @@
+/* SKILLS CONTAINER*/
+
+.skills-container{
+    background-color:#1c2022; 
+    margin:0;
+    padding:0;
+  }
+  .col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .text-center {
+    text-align: center!important;
+  }
+  .skills-head h3{
+    font-size:50px;
+    color: rgb(66, 215, 235);
+    text-align: center;
+    font-weight: bolder;    
+    padding:20px;
+  }
+  h4{
+    color: #00bfff;
+  }
+  .p-4 {
+    padding: 1.5rem!important;
+  }
+  .skills-row{
+    display: flex;
+    justify-content:center;
+  }
+  

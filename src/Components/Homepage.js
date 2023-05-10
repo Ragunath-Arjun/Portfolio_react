@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Homepage.css";
+
 function Homepage() {
   return (
     <>
@@ -11,7 +13,7 @@ function Homepage() {
                 <div class="row item" style={{transform: "none"}}>
                   <img
                     class="front-img"
-                    src={require("./image/3.jpg")}
+                    src={require("../image/3.jpg")}
                     alt="Profile"
                     />
                   <br />
