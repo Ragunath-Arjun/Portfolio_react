@@ -85,7 +85,13 @@ function Contact() {
                 ></textarea>
               </div>
               <div class="input-text-container">
-                <input type="submit" class="btn-primary mt-3 form-control" value="Send Message">Send Message</input>
+                <input
+                  type="submit"
+                  class="btn-primary mt-3 form-control"
+                  value="Send Message"
+                >
+                  Send Message
+                </input>
               </div>
             </form>
           </div>
