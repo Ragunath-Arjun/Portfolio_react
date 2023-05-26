@@ -4,7 +4,7 @@
     padding:0;
     background-color:#1c2022; 
     font-family:'Josefin Sans';
-    height:640px;
+    height:610px;
   }
   .mainpage{
     display:flex;
@@ -17,7 +17,7 @@
     width:200px;
     border:10px solid rgb(63, 200, 200);
     border-bottom-color: #1c2022;
-    border-radius:50%;
+    border-radius:8rem 8rem;
   }
   .front-img:hover{
     transform:scale(1.1,1.1);
@@ -37,6 +37,7 @@
   .mern{
     font-size:1.6rem;
     color:white;
+    font-weight: 500 !important;
   }
   .item{
   z-index: 1;
@@ -47,12 +48,14 @@
     flex-wrap: nowrap;
   }
   .icons a{
-    border:1px solid white;
+    border:1px solid transparent;
     border-radius: 30%;
   }
   .icons a:hover{
     transform: translate(0,-1px);
     background-color:black;
+    border-radius: 5rem 5rem;
+
   }
   .content-container{
     flex-direction: column;

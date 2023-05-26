@@ -18,9 +18,13 @@
   } 
   .input-text-container input{
   background-color: #1c2022;
+  border-radius: 5rem 5rem;
+
   }
   .input-text-container textarea{
     background-color: #1c2022;
+    border-radius: 5rem 5rem;
+
     }
   .input-text-container input:hover{
   border: 3px solid #09eec0;
@@ -31,17 +35,23 @@
     
   
   .icons-below a{
-    border:1px solid white;
+    border:1px solid transparent;
     margin-left:20px;
-    border-radius: 30%;
   }
   
   .icons-below a:hover{
     background-color: black;
     transform: scale(1.1,1.1);
+    border-radius: 5rem 5rem;
+
   }
   .icons-below{
     display:flex;
     justify-content: center !important;
     align-items: center !important;
+  }
+
+  .sendmsg-btn{
+    border-radius: 5rem 5rem;
+    font-weight: 600 !important;
   }

@@ -37,21 +37,29 @@
   }
 
   .btn-res{
-    padding:5px;
-    font-family:'Josefin Sans';
-    width:170px;
+    text-align: center;
+    width:150px;
     height:50px;
-    letter-spacing: 3px;
-    background-color: rgb(66, 215, 235);
-    font-weight: bold;
-    border-radius: 10%;
-    border:1px solid transparent;
+    letter-spacing:1.5px;
+    background-color:#1e2124;
+    border-radius: 5em 5em !important;
+    border:1px solid white;
+    color: #FFFFFF;
+    font-weight: 720 !important;
+    font-size: 13px !important;
+    line-height: 2.5em !important;
+    
   }
 
   .btn-res:hover{
-    transform: scale(1.1,1.1);
+  background-color: white;
+  color:black;
   }
 
   .btn-res span i {
-    color:black;
+    color:#FFFFFF;
+  }
+
+  .btn-res span i:hover {
+    color: black;
   }

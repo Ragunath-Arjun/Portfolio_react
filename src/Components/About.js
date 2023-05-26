@@ -29,8 +29,8 @@ function About() {
                 <br />I have good hands-on experience in HTML5, CSS3,
                 Javascript, React, Node, SQL, MongoDB and on.
               </p>
-              <i class="fa fa-user fa-2x" aria-hidden="true"></i>
-              <span class="font">Name : Ragunath M</span>
+              <i class="fa fa-user fa-2x ml-1" aria-hidden="true"></i>
+              <span class="font ml-2">Name : Ragunath M</span>
               <br />
               <i class="fa fa-birthday-cake fa-2x" aria-hidden="true"></i>
               <span class="font"> DOB : 13-10-1996</span>

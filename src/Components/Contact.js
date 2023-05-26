@@ -78,7 +78,7 @@ function Contact() {
               <div class="input-text-container">
                 <input
                   type="text"
-                  class={`name-input col-12 form-control ${
+                  class={`name-input form-control ${
                     myFormik.errors.name ? "is-invalid" : "is-valid"
                   }`}
                   name="name"
@@ -91,7 +91,7 @@ function Contact() {
               <div class="input-text-container">
                 <input
                   type="email"
-                  class={`email-input col-12 mt-3 form-control ${
+                  class={`email-input mt-3 form-control ${
                     myFormik.errors.email ? "is-invalid" : "is-valid"
                   }`}
                   name="email"
@@ -104,7 +104,7 @@ function Contact() {
               <div class="input-text-container">
                 <input
                   type="text"
-                  class={`subject-input col-12 mt-3 form-control ${
+                  class={`subject-input mt-3 form-control ${
                     myFormik.errors.subject ? "is-invalid" : "is-valid"
                   }`}
                   name="subject"
@@ -118,7 +118,7 @@ function Contact() {
               <div class="input-text-container">
                 <textarea
                   name="message"
-                  className={`message-input col-12 mt-3 form-control ${
+                  className={`message-input mt-3 form-control ${
                     myFormik.errors.message ? "is-invalid" : "is-valid"
                   }`}
                   placeholder="Message"
@@ -130,7 +130,7 @@ function Contact() {
               <div>
                 <input
                   type="submit"
-                  class="btn-primary mt-3 form-control"
+                  class="btn-primary mt-3 form-control sendmsg-btn"
                   value="Send Message"
                 />
               </div>
@@ -138,7 +138,7 @@ function Contact() {
           </div>
         </div>
 
-        <SocialMedia/>
+        <SocialMedia />
         <br />
 
         <div class="up">
