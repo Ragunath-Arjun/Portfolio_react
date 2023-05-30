@@ -34,6 +34,6 @@
     text-transform: uppercase;
   }
   .nav-link:hover{
-    color:#00bfff !important;
     transform: translateY(-1px);
+    border-bottom: 1px solid red;
   }

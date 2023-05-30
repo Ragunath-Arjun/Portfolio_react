@@ -136,9 +136,12 @@ function Contact() {
               </div>
             </form>
           </div>
+          <div class="col-lg-5">
+            <h3 class="follow-us">Follow me on:</h3>
+            <SocialMedia />
+          </div>
         </div>
 
-        <SocialMedia />
         <br />
 
         <div class="up">
