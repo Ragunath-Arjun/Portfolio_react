@@ -25,18 +25,99 @@ display: flex;
 justify-content:space-evenly;
 }
 
-.projects{
-width:250px;
+img{
+width:300px;
 height:250px;
 border-radius: 1rem;
-box-shadow: 0px 0px 8px #888;;
+box-shadow: 9px 8px 8px #888;;
 object-fit:fill;
 }
 
-.projects3{
-    width:250px;
-    height:250px;
-    border-radius:1rem;
-    box-shadow: 0px 0px 8px #888;;
-    object-fit:cover; 
-}
+/*Accordion*/
+
+body {
+    background: #232323;
+  }
+  .accordion{
+    margin: 40px 0;
+  }
+  .accordion .item {
+      border: none;
+      margin-bottom: 50px;
+      background: none;
+  }
+  .t-p{
+    color: rgb(193 206 216);
+    padding: 40px 30px 0px 30px;
+  }
+  .accordion .item .item-header h2 button.btn.btn-link {
+      background: #333435;
+      color: white;
+      border-radius: 0px;
+      font-family: 'Poppins';
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 2.5;
+      text-decoration: none;
+  }
+  .accordion .item .item-header {
+      border-bottom: none;
+      background: transparent;
+      padding: 0px;
+      margin: 2px;
+  }
+  
+  .accordion .item .item-header h2 button {
+      color: white;
+      font-size: 20px;
+      padding: 15px;
+      display: block;
+      width: 100%;
+      text-align: left;
+  }
+  
+  .accordion .item .item-header h2 i {
+      float: right;
+      font-size: 30px;
+      color: #eca300;
+      background-color: rgb(63, 60, 60);
+      width: 60px;
+      height: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+  }
+  
+  button.btn.btn-link.collapsed i {
+      transform: rotate(0deg);
+  }
+  
+  button.btn.btn-link i {
+      transform: rotate(180deg);
+      transition: 0.5s;
+  }
+  .project-heading{
+    font-size: 18px !important;
+    text-align: center !important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif !important;
+  }
+
+  .project-details{
+    font-size: 15px;
+    font-weight: 500 !important;
+    color:White;
+    line-height: 40px;
+    white-space:nowrap;
+    overflow: hidden;
+    cursor: pointer;
+  }
+
+  .project-details > a {
+    color:#00bfff;
+  }
+  
+  .credentials{
+    color:#eca300;
+    font-weight: underline;
+  }

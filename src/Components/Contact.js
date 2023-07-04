@@ -146,7 +146,7 @@ function Contact() {
 
         <div class="up">
           <a href="#home">
-            <button class="up1">UP</button>
+            <button class="up1">UP↑</button>
           </a>
         </div>
       </div>

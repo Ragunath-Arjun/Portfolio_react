@@ -19,25 +19,4 @@
   color: #00bfff;
 }
 
-.up{
-  text-align: center ;
-}
 
-.up1{
-  height:55px;
-  width:55px;
-  Padding:5px;
-  letter-spacing:1px;
-  border-radius: 10rem 11rem !important;
-  background-color: #00bfff;
-  position:relative;
-  margin-bottom: -40px;
-  color:white;
-  font-weight: 700 !important;
-
-}
-
-.up1:hover{
-  background-color: white;
-  color: black;
-}

@@ -35,5 +35,5 @@
   }
   .nav-link:hover{
     transform: translateY(-1px);
-    border-bottom: 1px solid red;
+    border-bottom: 1.7px solid rgb(255, 0, 255);
   }

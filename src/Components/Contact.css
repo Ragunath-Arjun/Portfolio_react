@@ -61,3 +61,27 @@
     margin-left: 100px;
     font-weight: 700 !important;
   }
+
+  .up{
+    text-align: center ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -30px;
+  }
+  
+  .up1{
+    height:55px;
+    width:55px;
+    letter-spacing:1px;
+    border-radius: 10rem 10rem !important;
+    background-color: #00bfff;
+    color:white;
+    font-weight: 700 !important;
+    
+  }
+  
+  .up1:hover{
+    background-color: white;
+    color: black;
+
+  }
