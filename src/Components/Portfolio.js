@@ -217,7 +217,7 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-            <div class="item">
+            {/* <div class="item">
               <div class="item-header" id="headingFour">
                 <h2 class="mb-0">
                   <button
@@ -253,7 +253,7 @@ function Portfolio() {
                   and the like).
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
         {/* <div class="row pc1">

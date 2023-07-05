@@ -38,7 +38,7 @@ function Topbar() {
               data-toggle="collapse"
               data-target=".navbar-collapse.show"
             >
-              <a href="#home" class="nav-link text-white ml-5">
+              <a href="#home" class="nav-link text-white">
                 HOME
               </a>
             </li>
