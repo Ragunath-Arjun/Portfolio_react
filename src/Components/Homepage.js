@@ -28,7 +28,7 @@ function Homepage() {
                 <h3 class="mern">Full Stack Developer | MERN</h3>
               </div>
 
-              <div
+              {/* <div
                 class="icons col-12 text-center"
                 style={{ transform: "none" }}
               >
@@ -70,7 +70,7 @@ function Homepage() {
                 >
                   <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
                 </a>
-              </div>
+              </div> */}
             </section>
           </div>
         </div>

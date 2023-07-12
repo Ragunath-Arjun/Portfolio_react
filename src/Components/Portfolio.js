@@ -217,7 +217,7 @@ function Portfolio() {
                 </div>
               </div>
             </div>
-            {/* <div class="item">
+            <div class="item">
               <div class="item-header" id="headingFour">
                 <h2 class="mb-0">
                   <button
@@ -235,25 +235,56 @@ function Portfolio() {
               </div>
               <div
                 id="collapseFour"
-                class="collapse"
+                class="collapse row"
                 aria-labelledby="headingFour"
                 data-parent="#accordionExample"
               >
-                <div class="t-p">
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it look like readable English.
-                  Many desktop publishing packages and web page editors now use
-                  Lorem Ipsum as their default model text, and a search for
-                  'lorem ipsum' will uncover many web sites still in their
-                  infancy. Various versions have evolved over the years,
-                  sometimes by accident, sometimes on purpose (injected humour
-                  and the like).
+                <div class="t-p col-lg-6">
+                  <img
+                    class="projects"
+                    src={require("../image/GroupChat.PNG")}
+                    alt="Money Manager"
+                  />
+                </div>
+                <div class="t-p col-lg-6">
+                  <div className="project-details">
+                    GitHub Frontend:{" "}
+                    <a
+                      href="https://github.com/Ragunath-Arjun/Group_cht_Frontend"
+                      target="_blank"
+                    >
+                      https://github.com/Ragunath-Arjun/Group_cht_Frontend
+                    </a>
+                  </div>
+                  <div className="project-details">
+                    GitHub Backend:
+                    <a
+                      href="https://github.com/Ragunath-Arjun/Group_Chat_backend"
+                      target="_blank"
+                    >
+                      https://github.com/Ragunath-Arjun/Group_Chat_backend
+                    </a>
+                  </div>
+                  <div className="project-details">
+                    Deploy link:
+                    <a
+                      href="https://main.d1giqwrhgmqhua.amplifyapp.com/"
+                      target="_blank"
+                    >
+                      https://main.d1giqwrhgmqhua.amplifyapp.com/
+                    </a>
+                  </div>
+                  <hr></hr>
+                  <div className="project-details">
+                    <span className="credentials">Demo Credentials:</span>
+                    <br />
+                    <span>Username : ragunath219@gmail.com</span>
+                    <br />
+                    <span>Password : 87654321</span>
+                  </div>
                 </div>
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
         {/* <div class="row pc1">
