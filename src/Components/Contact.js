@@ -73,7 +73,7 @@ function Contact() {
         </div>
         <hr />
         <div class="row pt-3 contact-me-container">
-          <div class="col-lg-6 contact-input-container ml-5">
+          <div class="col-lg-12 contact-input-container">
             <form class="contact-input-form" onSubmit={myFormik.handleSubmit}>
               <div class="input-text-container">
                 <input

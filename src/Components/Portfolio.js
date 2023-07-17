@@ -71,12 +71,22 @@ function Portfolio() {
                     </a>
                   </div>
                   <hr></hr>
-                  <div className="project-details">
-                    <span className="credentials">Demo Credentials:</span>
-                    <br />
-                    <span>Username : ragunath219@gmail.com</span>
-                    <br />
-                    <span>Password : 87654321</span>
+                  <div className="project-details row">
+                    <div className="col-lg-6">
+                      <span className="credentials">Demo Credentials:</span>
+                      <br />
+                      <span>Username : ragunath219@gmail.com</span>
+                      <br />
+                      <span>Password : 87654321</span>
+                    </div>
+                    <div className="col-lg-6">
+                      <span className="credentials">Technologies Used:</span>
+                      <br />
+                      <span>Frontend : React,HTML,CSS,Bootstrap</span>
+                      <br />
+                      <span>Backend : Node.js</span> <br />
+                      <span>Database : Mongo DB</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -139,12 +149,22 @@ function Portfolio() {
                     </a>
                   </div>
                   <hr></hr>
-                  <div className="project-details">
-                    <span className="credentials">Demo Credentials:</span>
-                    <br />
-                    <span>Username : ragunath219@gmail.com</span>
-                    <br />
-                    <span>Password : 87654321</span>
+                  <div className="project-details row">
+                    <div className="col-lg-6">
+                      <span className="credentials">Demo Credentials:</span>
+                      <br />
+                      <span>Username : ragunath219@gmail.com</span>
+                      <br />
+                      <span>Password : 87654321</span>
+                    </div>
+                    <div className="col-lg-6">
+                      <span className="credentials">Technologies Used:</span>
+                      <br />
+                      <span>Frontend : React,HTML,CSS,Bootstrap</span>
+                      <br />
+                      <span>Backend : Node.js</span> <br />
+                      <span>Database : Mongo DB</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -207,12 +227,22 @@ function Portfolio() {
                     </a>
                   </div>
                   <hr></hr>
-                  <div className="project-details">
-                    <span className="credentials">Demo Credentials:</span>
-                    <br />
-                    <span>Username : ragunath219@gmail.com</span>
-                    <br />
-                    <span>Password : 87654321</span>
+                  <div className="project-details row">
+                    <div className="col-lg-6">
+                      <span className="credentials">Demo Credentials:</span>
+                      <br />
+                      <span>Username : ragunath219@gmail.com</span>
+                      <br />
+                      <span>Password : 87654321</span>
+                    </div>
+                    <div className="col-lg-6">
+                      <span className="credentials">Technologies Used:</span>
+                      <br />
+                      <span>Frontend : React,HTML,CSS,Bootstrap</span>
+                      <br />
+                      <span>Backend : Node.js</span> <br />
+                      <span>Database : Mongo DB</span>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -275,12 +305,22 @@ function Portfolio() {
                     </a>
                   </div>
                   <hr></hr>
-                  <div className="project-details">
-                    <span className="credentials">Demo Credentials:</span>
-                    <br />
-                    <span>Username : ragunath219@gmail.com</span>
-                    <br />
-                    <span>Password : 87654321</span>
+                  <div className="project-details row">
+                    <div className="col-lg-6">
+                      <span className="credentials">Demo Credentials:</span>
+                      <br />
+                      <span>Username : ragunath219@gmail.com</span>
+                      <br />
+                      <span>Password : 87654321</span>
+                    </div>
+                    <div className="col-lg-6">
+                      <span className="credentials">Technologies Used:</span>
+                      <br />
+                      <span>Frontend : React,HTML,CSS,Bootstrap</span>
+                      <br />
+                      <span>Backend : Node.js</span> <br />
+                      <span>Database : Mongo DB</span>
+                    </div>
                   </div>
                 </div>
               </div>

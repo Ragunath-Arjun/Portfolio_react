@@ -75,7 +75,7 @@ function Topbar() {
               data-target=".navbar-collapse.show"
             >
               <a href="#project" class="nav-link text-white">
-                PORTFOLIO
+                PROJECTS
               </a>
             </li>
             <li

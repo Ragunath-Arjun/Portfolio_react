@@ -61,15 +61,12 @@ function Qualification() {
           <div class="btn-down">
             <a
               href={require("../image/Ragunath_resume_2023.pdf")}
-              download
               target="_blank"
               rel="noreferrer"
             >
-              <button class="btn-res">
+              <button class="btn-res mb-3">
                 Resume
-                <span>
-                  <i class="fa fa-download" aria-hidden="true"></i>
-                </span>
+                <span></span>
               </button>
             </a>
           </div>
